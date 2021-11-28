@@ -21,7 +21,6 @@ const users = [{
 ];
 let nexId = 3;
 
-// creating new user
 newroute.post('/login', (req, res) => {
 
     const newuser =
@@ -40,11 +39,7 @@ newroute.post('/login', (req, res) => {
 
 
 });
-        // users.push(newuser);
-        // nexId += 1;
-//     catch {
-//     res.json("Usuario não encontrado.");
-// }
+
 
 
 
